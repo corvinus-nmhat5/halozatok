@@ -31,5 +31,7 @@ function letöltés() {
 
 //kérdés megjelenítés
 function kérdésMegjelenítés(kérdés) {
-    
+    kérdés == sorszam
+    let kerdes = document.getElementById("kérdés_szövege")
+    kerdes.innerHTML = JSON.stringify(kérdések[kérdés].questionText)
 }

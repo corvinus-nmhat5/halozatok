@@ -5,7 +5,7 @@
 div {
     margin: 20px;
     border: 1px solid black;
-    background-color: rgba(255, 82, 82, 0.2);
+    background-color: rgba(120, 181, 255, 0.2);
 }
 
 #külső {
@@ -46,15 +46,15 @@ div {
 }
 
 .kerdes {
-    background-color: rgba(255, 82, 82, 0.2);
+    background-color: rgba(120, 181, 255, 0.2);
 }
 
 .kerdes:hover {
-    background-color: rgba(255, 82, 82, 0.8);
+    background-color: rgba(120, 181, 255, 0.8);
 }
 
 .kattintható:hover {
-    background-color: rgba(255, 82, 82, 0.8);
+    background-color: rgba(120, 181, 255, 0.8);
 }
 
 .jó {
@@ -63,4 +63,8 @@ div {
 
 .rossz {
     background-color: lightcoral;
+}
+
+.rejtett {
+
 }

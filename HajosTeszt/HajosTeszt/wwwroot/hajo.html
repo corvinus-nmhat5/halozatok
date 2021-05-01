@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link href="hajo.css" rel="stylesheet" />
-    <script src="hetedik.js"></script>
+    <script src="tizedik.js"></script>
 </head>
 <body>
     <div id="külső">
@@ -15,17 +15,16 @@
 
         <div id="középső">
             <div id="válaszok">
-                <div id="válasz1" class="kerdes"></div>
-                <div id="válasz2" class="kerdes"></div>
-                <div id="válasz3" class="kerdes"></div>
+                <div id="válasz1" onclick="választás(1)" class="kerdes kattintható"></div>
+                <div id="válasz2" onclick="választás(2)" class="kerdes kattintható jó"></div>
+                <div id="válasz3" onclick="választás(3)" class="kerdes kattintható rossz"></div>
             </div>
             <div id="kép">
                 <img id="kép1" src="https://szoft1.comeback.hu/hajo/teszt-0050.jpg" />
             </div>
         </div>
         <dic id="vezérlő">
-            <div id="vissza" class="kattintható">Vissza</div>
-            <div id="előre" class="kattintható">Előre</div>
+            <div id="előre" onclick="előre()" class="kattintható">Előre</div>
     </div>
 </body>
 </html>
